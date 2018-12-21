@@ -1,9 +1,12 @@
 // This file is required by the index.html file and will
 // be executed in the renderer process for that window.
 // All of the Node.js APIs are available in this process.
+var open = require("open");
 
 let outp = document.getElementById('out2');
 let outpBox = document.getElementById('outp');
+let inp = document.getElementById('inp');
+
 convert = () => {
     let input = document.getElementById('inp').value;
 
@@ -30,4 +33,8 @@ convert = () => {
 
     outp.innerHTML = input;
     outpBox.innerHTML = input;
+}
+
+openGitHub = () =>{
+    open("https://github.com/ThunbergOlle/colorvariables-preview-sourcemod/issues");
 }

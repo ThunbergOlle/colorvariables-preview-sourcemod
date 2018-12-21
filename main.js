@@ -6,13 +6,14 @@ const {app, BrowserWindow, globalShortcut} = require('electron')
 let mainWindow
 function createWindow () {
   // Create the browser window.
-  mainWindow = new BrowserWindow({width: 800, height: 600})
+  mainWindow = new BrowserWindow({width: 600, height: 400})
   mainWindow.setMenu(null);
+  mainWindow.setResizable(false);
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
 	globalShortcut.register('f5', function() {
 		mainWindow.reload()
-	})
+	});
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
 
