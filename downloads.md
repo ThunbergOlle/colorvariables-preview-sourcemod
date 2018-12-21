@@ -3,7 +3,7 @@ You can find all the downloadable builds here
 
 **MAKE A FOLDER ON YOUR DESKTOP AND CHOOSE IT AS YOUR FILE DESTINATION** or your desktop will be filled with dll files and shit.
 
-[Color-Preview-win32-x64.exe (v0.1)]()
+[Color-Preview-win32-x64.exe (v0.1)](https://github.com/ThunbergOlle/colorvariables-preview-sourcemod/raw/master/installers/ColorPreviewInstaller.EXE)
 [Color-Preview-win32-x64.zip (v0.1)]()
 
 
