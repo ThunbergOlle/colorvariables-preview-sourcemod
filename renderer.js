@@ -9,25 +9,24 @@ let inp = document.getElementById('inp');
 
 convert = () => {
     let input = document.getElementById('inp').value;
-
+    input = input.toUpperCase();
     for(let i = 0; i < input.length / 4; i++){
-        input = input.replace("{default}", ' <p style="color: #FEFEFE; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
-        input = input.replace("{red}", ' <p style="color: #FE4040; display: inline-block; margin:0; padding: 0; margin-right: 5px;"> ');
-        input = input.replace("{lightred}", ' <p style="color: #EA4B4B; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
-        input = input.replace("{darkred}", ' <p style="color: #CF0000; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
-        input = input.replace("{bluegray}", ' <p style="color: #AFC2D8; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
-        input = input.replace("{blue}", ' <p style="color: #5E97D8; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
-        input = input.replace("{darkblue}", ' <p style="color: #4B69FE; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
-        input = input.replace("{purple}", ' <p style="color: #B980EF; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
-        input = input.replace("{orchid}", ' <p style="color: #D22CE5; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
-        input = input.replace("{yellow}", ' <p style="color: #ECE37A; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
-        input = input.replace("{gold}", ' <p style="color: #E3AD39; display: inline-block; margin:0; padding: 0; margin-right: 5px;"> ');
-        input = input.replace("{lightgreen}", ' <p style="color: #BEFE8F; display: inline-block; margin:0; padding: 0; margin-right: 5px;"  ');
-        input = input.replace("{lightgreen}", ' <p style="color: #BEFE8F; display: inline-block; margin:0; padding: 0; margin-right: 5px;"  ');
-        input = input.replace("{green}", ' <p style="color: #40FE40; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
-        input = input.replace("{lime}", ' <p style="color: #A1FE47; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
-        input = input.replace("{grey}", ' <p style="color: #C4C9CF; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
-        input = input.replace("{grey2}", ' <p style="color: #AFC2D8; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
+        input = input.replace("{DEFAULT}", ' <p style="color: #FEFEFE; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
+        input = input.replace("{RED}", ' <p style="color: #FE4040; display: inline-block; margin:0; padding: 0; margin-right: 5px;"> ');
+        input = input.replace("{LIGHTRED}", ' <p style="color: #EA4B4B; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
+        input = input.replace("{DARKRED}", ' <p style="color: #CF0000; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
+        input = input.replace("{BLUEGRAY}", ' <p style="color: #AFC2D8; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
+        input = input.replace("{BLUE}", ' <p style="color: #5E97D8; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
+        input = input.replace("{DARKBLUE}", ' <p style="color: #4B69FE; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
+        input = input.replace("{PURPLE}", ' <p style="color: #B980EF; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
+        input = input.replace("{ORCHID}", ' <p style="color: #D22CE5; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
+        input = input.replace("{YELLOW}", ' <p style="color: #ECE37A; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
+        input = input.replace("{GOLD}", ' <p style="color: #E3AD39; display: inline-block; margin:0; padding: 0; margin-right: 5px;"> ');
+        input = input.replace("{LIGHTGREEN}", ' <p style="color: #BEFE8F; display: inline-block; margin:0; padding: 0; margin-right: 5px;"  ');
+        input = input.replace("{GREEN}", ' <p style="color: #40FE40; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
+        input = input.replace("{LIME}", ' <p style="color: #A1FE47; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
+        input = input.replace("{GREY}", ' <p style="color: #C4C9CF; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
+        input = input.replace("{GREY2}", ' <p style="color: #AFC2D8; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
     
     }
 
