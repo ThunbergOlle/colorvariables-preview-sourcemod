@@ -6,8 +6,7 @@ const path = require('path');
 let mainWindow
 function createWindow () {
   // Create the browser window.
-  mainWindow = new BrowserWindow({width: 600, height: 400, icon: path.join(__dirname, 'appico.ico')
-})
+  mainWindow = new BrowserWindow({width: 600, height: 400, icon: path.join(__dirname, 'appico.ico')});
   mainWindow.setMenu(null);
   mainWindow.setResizable(false);
   // and load the index.html of the app.

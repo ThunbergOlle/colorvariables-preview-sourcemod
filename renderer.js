@@ -17,12 +17,17 @@ convert = () => {
         input = input.replace("{DARKRED}", ' <p style="color: #CF0000; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
         input = input.replace("{BLUEGRAY}", ' <p style="color: #AFC2D8; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
         input = input.replace("{BLUE}", ' <p style="color: #5E97D8; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
+        input = input.replace("{LIGHTBLUE}", ' <p style="color: #6B8DB0; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
         input = input.replace("{DARKBLUE}", ' <p style="color: #4B69FE; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
         input = input.replace("{PURPLE}", ' <p style="color: #B980EF; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
+        input = input.replace("{OLIVE}", ' <p style="color: #926B1C; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
+        input = input.replace("{LIGHTOLIVE}", ' <p style="color: #DDDAA7; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
         input = input.replace("{ORCHID}", ' <p style="color: #D22CE5; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
+        input = input.replace("{GRAY}", ' <p style="color: #C5C5C3; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
         input = input.replace("{YELLOW}", ' <p style="color: #ECE37A; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
         input = input.replace("{GOLD}", ' <p style="color: #E3AD39; display: inline-block; margin:0; padding: 0; margin-right: 5px;"> ');
         input = input.replace("{LIGHTGREEN}", ' <p style="color: #BEFE8F; display: inline-block; margin:0; padding: 0; margin-right: 5px;"  ');
+        input = input.replace("{LIGHTPURPLE}", ' <p style="color: #8D7599; display: inline-block; margin:0; padding: 0; margin-right: 5px;"  ');
         input = input.replace("{GREEN}", ' <p style="color: #40FE40; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
         input = input.replace("{LIME}", ' <p style="color: #A1FE47; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
         input = input.replace("{GREY}", ' <p style="color: #C4C9CF; display: inline-block; margin:0; padding: 0; margin-right: 5px;">  ');
@@ -31,7 +36,6 @@ convert = () => {
     }
 
     outp.innerHTML = input;
-    outpBox.innerHTML = input;
 }
 
 openGitHub = () =>{

@@ -6,7 +6,6 @@
   "scripts": {
     "start": "electron .",
     "build": "electron-packager . --out=dist/win --platform=win32 --arch=x64 --icon=appico.ico --asar=true --overwrite"
-
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
